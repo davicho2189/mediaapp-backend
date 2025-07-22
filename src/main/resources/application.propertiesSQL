@@ -1,0 +1,14 @@
+spring.application.name=mediaapp-backend
+# JPA
+spring.jpa.database=sql_server
+spring.jpa.show-sql=false
+spring.jpa.hibernate.ddl-auto=update
+
+# Datasource SQL Server
+spring.datasource.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver
+spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=mediappbd7
+spring.datasource.username=sa
+spring.datasource.password=RlaRH8LmC**..
+
+# Si usas OAuth2 en tu app
+security.oauth2.resource.filter-order=3
